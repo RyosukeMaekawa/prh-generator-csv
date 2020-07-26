@@ -1,0 +1,10 @@
+version: 1
+rules:
+  - expected: サーバー
+    patterns:
+      - Server
+      - server
+      - /サーバ(?!ー)/
+    specs:
+      - from: サーバ
+        to: サーバー
